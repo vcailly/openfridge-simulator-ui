@@ -1,5 +1,11 @@
 applications:
-- memory: 512M
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: openfridge-ui-vc
+  host: openfridge-ui-vc
+  disk_quota: 1024M
   services:
   - openfridge-simulator-ui-cloudantNoSQLDB
   env:
