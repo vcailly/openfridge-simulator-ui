@@ -3,7 +3,7 @@
 This repository is an Node-RED application to simulate events from virtual appliances of the [openfridge](https://github.com/IBM/openfridge)  sample application.
 With this Node-RED application you do not need to use the Paho or Mosquitto MQTT client for simulating events from the virtual devices, you can just do it from a web application.
 
-It  can be deployed into Bluemix with only a couple of clicks. 
+It  can be deployed into Bluemix with only a couple of clicks, using a Bluemix DevOps Toolchain
 
 # Prerequisites
 
@@ -11,13 +11,13 @@ It  can be deployed into Bluemix with only a couple of clicks.
 
 Follow the instructions provided at :
 
-1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](docs/BLUEMIX.md).
-2. [Set up the OpenWhisk actions, triggers, and rules](docs/OPENWHISK.md).
+1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](https://github.com/IBM/openfridge/blob/master/docs/BLUEMIX.md).
+2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
 #### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application
 
-For each device you need to add a deviceId attribute wich contains the device ID (as defined on the IBM IoT platform) of the appliance 
+For each device you need to add a `deviceId `attribute wich contains the device ID  of the appliance (as defined on the IBM IoT platform)
 
 ```json
 {
@@ -41,9 +41,9 @@ instance will store its data.
 
 **Remark:** If you want to change the name of this Cloudant instance, you must  update  `manifest.yml` accordingly.
 
-# Deployment into Bluemix
+# Deployment into Bluemix, using a Bluemix DevOps Toolchain
 
-You can easily deploy into bluemix by clicking on the following link:
+You can easily deploy into bluemix by clicking on the following button.
 
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/vcailly/openfridge-simulator-ui.git)
@@ -60,9 +60,45 @@ to ensure your flow editor remains secure from unauthorised access.
 # Configuration of the Node-Red flow with your own seetings from the Node-RED flow editor
 Once the  `Openfridge UI` application deployed into bluemix you need to configure the `cloudant IN` an the 3 `MQTT OUT` nodes with your own settings  (server and credentials parameters for authentication to the cloudand and IoT platform services)
 
-### for the `cloudant IN` node
+### For the `cloudant IN` node 
 
-* [A notification action](actions/alert-customer-event.js) x.
+1 - Open the `cloudant IN` nodeb
 
-    ![Primary workflow 2](docs/primary-workflow-2.png)
-### for the `MQTT OUT` node
+![Cloudant IN node](doc/cloudant_in.PNG)
+
+2 - Click the Edit button of the `Server` attribute
+
+![Server Attribute](doc/cloudant_in_step1.PNG)
+
+3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
+
+![Credentials](doc/cloudant_in_step2.PNG)
+   
+    
+### For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node
+
+1 - Open the `MQTT OUT` node
+
+![MQTT node](doc/MQTT_out.PNG)
+
+2 - Click the Edit button of the `Server` attribute
+
+![Server Attribute](doc/MQTT_out_step1.PNG)
+
+3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID 
+![orgid](doc/MQTT_out_step2.PNG)
+
+4 - On the `Security Tab`, Fill the Password field with the TOKEN of the Device (That you have set on the IBM IoT platform). Then click on `UPDATE` and then `DONE`.
+
+![password](doc/MQTT_out_step3.PNG)
+
+
+# Deploy the Node-Red flow with the new settings
+
+![deploy flow](doc/deploy_flow.PNG)
+
+# Use the "Openfridge UI"  Application
+
+The Node-Red flow editor is accessible at : http://\<bluemix_app_name\>.mybluemix.net/red/
+
+The "Openfridge UI"  Application is accessible at :http://\<bluemix_app_name\>.mybluemix.net/ui/
