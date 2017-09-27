@@ -79,7 +79,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
     
 ### For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node
 
-**_ 1 - Open the `MQTT OUT` node  _**
+** * 1 - Open the `MQTT OUT` node  * **
 
 ![MQTT node](doc/MQTT_out.PNG)
 
