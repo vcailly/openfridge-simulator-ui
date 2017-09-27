@@ -68,7 +68,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 * Click the Edit button of the Server attribute
 
-![Derver Attribute](doc/cloudant_in_step1.PNG)
+![Server Attribute](doc/cloudant_in_step1.PNG)
 
  * Fill the fields with the credentials for the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application. Then click on UPDATE and Then DONE
 ![Credentials](doc/cloudant_in_step2.PNG)
