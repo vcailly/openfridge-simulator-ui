@@ -15,9 +15,9 @@ Follow the instructions provided at :
 2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
-#### 2- Once the openfridge sample Application deployed - update records for each device in  the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application
+#### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application
 
-For each device you need to add a deviceId attribute wich contains the device ID (as defined on the IBM IoT platform) of the appliance 
+For each device you need to add a `deviceId `attribute wich contains the device ID  of the appliance (as defined on the IBM IoT platform)
 
 ```json
 {
