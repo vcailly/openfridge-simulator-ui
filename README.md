@@ -11,8 +11,8 @@ It  can be deployed into Bluemix with only a couple of clicks, using a Bluemix D
 
 Follow the instructions provided at :
 
-1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](https://github.com/IBM/openfridge/docs/BLUEMIX.md).
-2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/docs/OPENWHISK.md).
+1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](https://github.com/IBM/openfridge/blob/master/docs/BLUEMIX.md).
+2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
 #### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application
