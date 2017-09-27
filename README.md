@@ -15,7 +15,7 @@ Follow the instructions provided at :
 2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
-#### **_2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application_**
+### **_2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application_**
 
 For each device you need to add a `deviceId `attribute wich contains the device ID  of the appliance (as defined on the IBM IoT platform)
 
@@ -33,7 +33,7 @@ For each device you need to add a `deviceId `attribute wich contains the device 
 
 **Important**: the email address specified here will be eventually used to receive email notifications by the OpenWhisk actions - make sure it is valid.
 
-#### **_3- Create a Cloudant instance for Node-RED_**
+### **_3- Create a Cloudant instance for Node-RED_**
 
 From the bluemix console or using the Bluemix CLI, create an instance of the Cloudant 
 service, and call it `sample-node-red-cloudantNoSQLDB`. This is where your Node-RED 
@@ -62,7 +62,7 @@ to ensure your flow editor remains secure from unauthorised access.
 # Configuration of the Node-Red flow with your own seetings from the Node-RED flow editor
 Once the  `Openfridge UI` application deployed into bluemix you need to configure the `cloudant IN` an the 3 `MQTT OUT` nodes with your own settings  (server and credentials parameters for authentication to the cloudand and IoT platform services)
 
-### **For the `cloudant IN` node**
+#### **For the `cloudant IN` node**
 
 **_1 - Open the `cloudant IN` nodeb_**
 
@@ -72,12 +72,11 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Server Attribute](doc/cloudant_in_step1.PNG)
 
-**_3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
+**_3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`._**
 
-![Credentials](doc/cloudant_in_step2.PNG)_**
-   
+![Credentials](doc/cloudant_in_step2.PNG)
     
-### **For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node**
+#### **For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node**
 
 **_1 - Open the `MQTT OUT` node_**
 
