@@ -97,8 +97,8 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![deploy flow](doc/deploy_flow.PNG)
 
-# Use the Openfridge UI APPLICATION
+# Use the "Openfridge UI"  Application
 
-http://openfridge-simulator-ui-20170926214616134.mybluemix.net/red/
+The Node-Red flow editor is accessible at : http://\<bluemix_app_name\>.mybluemix.net/red/
 
-http://openfridge-simulator-ui-20170926214616134.mybluemix.net/ui/#/0
+The "Openfridge UI"  Application is accessible at :http://openfridge-simulator-ui-20170926214616134.mybluemix.net/ui/
