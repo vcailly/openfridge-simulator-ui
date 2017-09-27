@@ -64,5 +64,6 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 * [A notification action](actions/alert-customer-event.js) x.
 
-    ![Primary workflow 2](docs/primary-workflow-2.png)
+    ![Primary workflow 2](doc/cloudant_in.PNG)
+    
 ### for the `MQTT OUT` node
