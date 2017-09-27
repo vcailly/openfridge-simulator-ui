@@ -66,11 +66,11 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Cloudant IN node](doc/cloudant_in.PNG)
 
-2 - Click the Edit button of the Server attribute
+2 - Click the Edit button of the `Server` attribute
 
 ![Server Attribute](doc/cloudant_in_step1.PNG)
 
-3 - Fill the fields with the credentials for the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application. Then click on UPDATE and Then DONE.
+3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
 
 ![Credentials](doc/cloudant_in_step2.PNG)
    
@@ -81,14 +81,14 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![MQTT node](doc/MQTT_out.PNG)
 
-2 - Click the Edit button of the Server attribute
+2 - Click the Edit button of the `Server` attribute
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-3 - On the Connection  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID 
+3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID 
 ![orgid](doc/MQTT_out_step2.PNG)
 
-4 - On the Security Tab, Fill the Password filed with the TOKEN of the Device (That you set on the IBM IoT platform). Then click on UPDATE and Then DONE.
+4 - On the `Security Tab`, Fill the Password field with the TOKEN of the Device (That you have set on the IBM IoT platform). Then click on `UPDATE` and then `DONE`.
 
 ![password](doc/MQTT_out_step3.PNG)
 
@@ -101,4 +101,4 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 The Node-Red flow editor is accessible at : http://\<bluemix_app_name\>.mybluemix.net/red/
 
-The "Openfridge UI"  Application is accessible at :http://openfridge-simulator-ui-20170926214616134.mybluemix.net/ui/
+The "Openfridge UI"  Application is accessible at :http://\<bluemix_app_name\>.mybluemix.net/ui/
