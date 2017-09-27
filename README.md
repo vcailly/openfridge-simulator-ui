@@ -60,10 +60,10 @@ to ensure your flow editor remains secure from unauthorised access.
 # Configuration of the Node-Red flow with your own seetings from the Node-RED flow editor
 Once the  `Openfridge UI` application deployed into bluemix you need to configure the `cloudant IN` an the 3 `MQTT OUT` nodes with your own settings  (server and credentials parameters for authentication to the cloudand and IoT platform services)
 
-### For the `cloudant IN` node ![Primary workflow 2](doc/cloudant_in.PNG)
+### For the `cloudant IN` node 
 
-* [Open the node]
-![Primary workflow 2](doc/cloudant_in.PNG)
+* [Open the `cloudant IN` node]
+![(doc/cloudant_in.PNG)]
 
 * [Click the Edit button of the Server attribute]
 ![Primary workflow 2](doc/cloudant_in_step1.PNG)
@@ -72,4 +72,4 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 ![Primary workflow 2](doc/cloudant_in_step2.PNG)
    
     
-### for the `MQTT OUT` node
+### For the `MQTT OUT` node
