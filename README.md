@@ -85,7 +85,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-3 - On the Connection  Tab, Replace  <orgid> by the value of your IBM IoT Platform Organization ID 
+3 - On the Connection  Tab, Replace  "<orgid>"  by the value of your IBM IoT Platform Organization ID 
 ![orgid](doc/MQTT_out_step2.PNG)
 
 4 - On the Security Tab, Fill the Password filed with the TOKEN of the Device (That you set on the IBM IoT platform). Then click on UPDATE and Then DONE.
