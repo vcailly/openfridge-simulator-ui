@@ -79,15 +79,15 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
     
 ### For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node
 
-** * 1 - Open the `MQTT OUT` node  * **
+**_1 - Open the `MQTT OUT` node_**
 
 ![MQTT node](doc/MQTT_out.PNG)
 
-**_ 2 - Click the Edit button of the `Server` attribute _**
+**_2 - Click the Edit button of the `Server` attribute_**
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-**_ 3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID  _**
+**_3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID  _**
 
 ![orgid](doc/MQTT_out_step2.PNG)
 
