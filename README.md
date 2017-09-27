@@ -79,23 +79,23 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
     
 ### For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node
 
-1 - Open the `MQTT OUT` node
+**_ 1 - Open the `MQTT OUT` node  _**
 
 ![MQTT node](doc/MQTT_out.PNG)
 
-2 - Click the Edit button of the `Server` attribute
+**_ 2 - Click the Edit button of the `Server` attribute _**
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID
+**_ 3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID  _**
 
 ![orgid](doc/MQTT_out_step2.PNG)
 
-4 - On the `Security Tab`
+**_4 - On the `Security Tab` _**
 
-Fill the Username Fiels field with the **use-token-auth** value (Authentication to the IBM IoT platform with a Tokeb)
+* Fill the Username Fiels field with the **use-token-auth** value (Authentication to the IBM IoT platform with a Tokeb)
 
-Fill the Password field with the TOKEN of the Device (That you have set on the IBM IoT platform). Then click on `UPDATE` and then `DONE`.
+* Fill the Password field with the TOKEN of the Device (That you have set on the IBM IoT platform). Then click on `UPDATE` and then `DONE`.
 
 ![password](doc/MQTT_out_step3.PNG)
 
