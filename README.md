@@ -66,7 +66,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 **_1 - Open the `cloudant IN` nodeb_**
 
-![Cloudant IN node](doc/cloudant_in.PNG)_**
+![Cloudant IN node](doc/cloudant_in.PNG)
 
 **_2 - Click the Edit button of the `Server` attribute_**
 
@@ -76,7 +76,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Credentials](doc/cloudant_in_step2.PNG)
     
-### **For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node)**
+### **For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` nodes)**
 
 **_1 - Open the `MQTT OUT` node_**
 
