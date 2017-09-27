@@ -90,4 +90,9 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 4 - On the Security Tab, Fill the Password filed with the TOKEN of the Device (That you set on the IBM IoT platform). Then click on UPDATE and Then DONE.
 
-![password](doc/MQTT_out_step2.PNG)
+![password](doc/MQTT_out_step3.PNG)
+
+
+# Deploy the Node-Red flow with the new settings
+
+![deploy flow](doc/deploy_flow.PNG)
