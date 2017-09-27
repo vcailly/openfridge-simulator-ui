@@ -41,9 +41,9 @@ instance will store its data.
 
 **Remark:** If you want to change the name of this Cloudant instance, you must  update  `manifest.yml` accordingly.
 
-# Deployment into Bluemix
+# Deployment into Bluemix, using a Bluemix DevOps Toolchain
 
-You can easily deploy into bluemix by clicking on the following link:
+You can easily deploy into bluemix by clicking on the following button.
 
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/vcailly/openfridge-simulator-ui.git)
