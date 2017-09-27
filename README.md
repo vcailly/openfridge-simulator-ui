@@ -3,7 +3,7 @@
 This repository is an Node-RED application to simulate events from virtual appliances of the [openfridge](https://github.com/IBM/openfridge)  sample application.
 With this Node-RED application you do not need to use the Paho or Mosquitto MQTT client for simulating events from the virtual devices, you can just do it from a web application.
 
-It  can be deployed into Bluemix with only a couple of clicks. 
+It  can be deployed into Bluemix with only a couple of clicks, using a Bluemix DevOps Toolchain
 
 # Prerequisites
 
@@ -11,8 +11,8 @@ It  can be deployed into Bluemix with only a couple of clicks.
 
 Follow the instructions provided at :
 
-1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](docs/BLUEMIX.md).
-2. [Set up the OpenWhisk actions, triggers, and rules](docs/OPENWHISK.md).
+1. [Set up the Bluemix services (Cloudant, SendGrid, Watson IoT, and a Cloud Foundry app)](https://github.com/IBM/openfridge/docs/BLUEMIX.md).
+2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/docs/OPENWHISK.md).
 
 
 #### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application
