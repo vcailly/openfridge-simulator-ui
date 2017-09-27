@@ -107,4 +107,4 @@ The Node-Red flow editor is accessible at : http://\<bluemix_app_name\>.mybluemi
 The "Openfridge UI"  Application is accessible at :http://\<bluemix_app_name\>.mybluemix.net/ui/
 
 
-![openfridge_simulation_ui](doc/openfridge_simulation_ui.PNG.PNG)
+![openfridge_simulation_ui](doc/openfridge_simulation_ui.PNG)
