@@ -56,6 +56,7 @@ this repository and gets it deployed.
 
 When you first access the application, you'll be asked to set some security options
 to ensure your flow editor remains secure from unauthorised access.
+**Important**: Do not check the option to enable Application Metrics for Node.js
 
 # Configuration of the Node-Red flow with your own seetings from the Node-RED flow editor
 Once the  `Openfridge UI` application deployed into bluemix you need to configure the `cloudant IN` an the 3 `MQTT OUT` nodes with your own settings  (server and credentials parameters for authentication to the cloudand and IoT platform services)
