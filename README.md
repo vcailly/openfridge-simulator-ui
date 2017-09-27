@@ -7,7 +7,7 @@ It  can be deployed into Bluemix with only a couple of clicks, using a Bluemix D
 
 # Prerequisites
 
-### 1- Deploy the openfridge sample Application
+**_### 1- Deploy the openfridge sample Application_**
 
 Follow the instructions provided at :
 
@@ -15,7 +15,7 @@ Follow the instructions provided at :
 2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
-#### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application
+**_#### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application_**
 
 For each device you need to add a `deviceId `attribute wich contains the device ID  of the appliance (as defined on the IBM IoT platform)
 
@@ -33,7 +33,7 @@ For each device you need to add a `deviceId `attribute wich contains the device 
 
 **Important**: the email address specified here will be eventually used to receive email notifications by the OpenWhisk actions - make sure it is valid.
 
-#### 3- Create a Cloudant instance for Node-RED
+**_#### 3- Create a Cloudant instance for Node-RED_**
 
 From the bluemix console or using the Bluemix CLI, create an instance of the Cloudant 
 service, and call it `sample-node-red-cloudantNoSQLDB`. This is where your Node-RED 
@@ -64,15 +64,15 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ### For the `cloudant IN` node 
 
-1 - Open the `cloudant IN` nodeb
+**_1 - Open the `cloudant IN` nodeb_**
 
-![Cloudant IN node](doc/cloudant_in.PNG)
+![Cloudant IN node](doc/cloudant_in.PNG)_**
 
-2 - Click the Edit button of the `Server` attribute
+**_2 - Click the Edit button of the `Server` attribute_**
 
 ![Server Attribute](doc/cloudant_in_step1.PNG)
 
-3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
+**_3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
 
 ![Credentials](doc/cloudant_in_step2.PNG)
    
@@ -87,11 +87,11 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-**_3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID  _**
+**_3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID_**
 
 ![orgid](doc/MQTT_out_step2.PNG)
 
-**_4 - On the `Security Tab` _**
+**_4 - On the `Security Tab`_**
 
 * Fill the Username Fiels field with the **use-token-auth** value (Authentication to the IBM IoT platform with a Tokeb)
 
