@@ -96,3 +96,9 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 # Deploy the Node-Red flow with the new settings
 
 ![deploy flow](doc/deploy_flow.PNG)
+
+# Use the Openfridge UI APPLICATION
+
+http://openfridge-simulator-ui-20170926214616134.mybluemix.net/red/
+
+http://openfridge-simulator-ui-20170926214616134.mybluemix.net/ui/#/0
