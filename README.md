@@ -63,7 +63,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 ### For the `cloudant IN` node 
 
 * Open the `cloudant IN` node
-(doc/cloudant_in.PNG)
+![High level diagram](doc/cloudant_in.PNG)
 
 * Click the Edit button of the Server attribute
 (doc/cloudant_in_step1.PNG)
