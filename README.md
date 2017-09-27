@@ -7,7 +7,7 @@ It  can be deployed into Bluemix with only a couple of clicks, using a Bluemix D
 
 # Prerequisites
 
-**_### 1- Deploy the openfridge sample Application_**
+### **_1- Deploy the openfridge sample Application_**
 
 Follow the instructions provided at :
 
@@ -15,7 +15,7 @@ Follow the instructions provided at :
 2. [Set up the OpenWhisk actions, triggers, and rules](https://github.com/IBM/openfridge/blob/master/docs/OPENWHISK.md).
 
 
-**_#### 2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application_**
+#### **_2- Once the openfridge sample Application deployed - update records for each device in  the CLOUDANT_APPLIANCE_DATABASE database of the Openfridge application_**
 
 For each device you need to add a `deviceId `attribute wich contains the device ID  of the appliance (as defined on the IBM IoT platform)
 
@@ -33,7 +33,7 @@ For each device you need to add a `deviceId `attribute wich contains the device 
 
 **Important**: the email address specified here will be eventually used to receive email notifications by the OpenWhisk actions - make sure it is valid.
 
-**_#### 3- Create a Cloudant instance for Node-RED_**
+#### **_3- Create a Cloudant instance for Node-RED_**
 
 From the bluemix console or using the Bluemix CLI, create an instance of the Cloudant 
 service, and call it `sample-node-red-cloudantNoSQLDB`. This is where your Node-RED 
@@ -74,7 +74,7 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 **_3 - Fill the fields with the credentials for the `CLOUDANT_APPLIANCE_DATABASE` database of the Openfridge application. Then click on `UPDATE` and then `DONE`.
 
-![Credentials](doc/cloudant_in_step2.PNG)
+![Credentials](doc/cloudant_in_step2.PNG)_**
    
     
 ### For the `MQTT OUT` nodes (must be done for each of the 3 `MQTT OUT` node
