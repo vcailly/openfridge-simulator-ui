@@ -56,6 +56,7 @@ this repository and gets it deployed.
 
 When you first access the application, you'll be asked to set some security options
 to ensure your flow editor remains secure from unauthorised access.
+
 **Important**: Do not check the option to enable Application Metrics for Node.js
 
 # Configuration of the Node-Red flow with your own seetings from the Node-RED flow editor
@@ -86,7 +87,8 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 
 ![Server Attribute](doc/MQTT_out_step1.PNG)
 
-3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID 
+3 - On the `Connection`  Tab, Replace  \<orgid\> by the value of your IBM IoT Platform Organization ID
+
 ![orgid](doc/MQTT_out_step2.PNG)
 
 4 - On the `Security Tab`, Fill the Password field with the TOKEN of the Device (That you have set on the IBM IoT platform). Then click on `UPDATE` and then `DONE`.
@@ -103,3 +105,6 @@ Once the  `Openfridge UI` application deployed into bluemix you need to configur
 The Node-Red flow editor is accessible at : http://\<bluemix_app_name\>.mybluemix.net/red/
 
 The "Openfridge UI"  Application is accessible at :http://\<bluemix_app_name\>.mybluemix.net/ui/
+
+
+![openfridge_simulation_ui](doc/openfridge_simulation_ui.PNG.PNG)
